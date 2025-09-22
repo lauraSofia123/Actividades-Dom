@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Tarjeta */
+.card {
+  background: white;
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  min-height: 460px;
+}
+
+#nuevaTarea {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#agregarTarea {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#agregarTarea:hover {
+  background: #45a049;
+}
+
+#listaTareas {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Estilo de cada tarea */
+.tarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú de Ejercicios</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <h1>Aplicación Web - Menú de Ejercicios</h1>
+
+  <div class="menu">
+    <button data-url="ejer1.html">Ejercicio 1</button>
+    <button data-url="ejer2.html">Ejercicio 2</button>
+    <button data-url="ejer3.html">Ejercicio 3</button>
+    <button data-url="ejer4.html">Ejercicio 4</button>
+    <button data-url="ejer5.html">Ejercicio 5</button>
+    <button data-url="ejer6">Ejercicio 6</button>
+  </div>
+
+  <div id="tarjetaEj6" class="card" style="display:none;">
+    <h2>Gestión de tareas</h2>
+    <input type="text" id="nuevaTarea" placeholder="Escribe una tarea">
+    <button id="agregarTarea">Agregar tarea</button>
+    <div id="listaTareas"></div>
+  </div>
+
+  <iframe id="visor" src="" frameborder="0"></iframe>
+
+  <script src="menu.js"></script>
+  <script src="ejer6.js"></script>
+</body>
+</html>
